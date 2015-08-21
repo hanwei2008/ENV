@@ -1,0 +1,10 @@
+#!/home/hanwei/SoftWare/Python/ENV/VEScrapy/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'solrcloudpy==1.5.460','console_scripts','solrconsole'
+__requires__ = 'solrcloudpy==1.5.460'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('solrcloudpy==1.5.460', 'console_scripts', 'solrconsole')()
+    )
