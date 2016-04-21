@@ -1,0 +1,10 @@
+#!/home/hanwei/SoftWare/Python/ENV/VEScrapy/bin/python2.7
+# EASY-INSTALL-ENTRY-SCRIPT: 'pinyin==0.3','console_scripts','pinyin'
+__requires__ = 'pinyin==0.3'
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.exit(
+        load_entry_point('pinyin==0.3', 'console_scripts', 'pinyin')()
+    )
